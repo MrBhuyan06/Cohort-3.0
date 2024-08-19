@@ -1,3 +1,19 @@
-body {
+/* body {
   background-color: red;
+} */
+
+.container {
+  border: 2px solid black;
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.item {
+  height: 92px;
+  width: 92px;
+  border: 2px solid black;
+  background: purple;
+  margin: 2px;
 }
