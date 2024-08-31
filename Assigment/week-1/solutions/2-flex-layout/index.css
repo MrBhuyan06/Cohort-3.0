@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  border: 1px solid red;
+  margin-inline: auto;
+  display: flex;
+  height: 10vh;
+}
+.left {
+  background: blue;
+  flex-grow: 1;
+}
+
+.right {
+  background-color: red;
+  flex-grow: 2;
+}
